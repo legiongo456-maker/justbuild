@@ -24,7 +24,7 @@ function unityAdFinishedCallback() {
     }
 }
 
-var gameInstance = UnityLoader.instantiate("gameContainer", "/1v1oldschool/1/Build.json", {onProgress: UnityProgress});
+var gameInstance = UnityLoader.instantiate("gameContainer", "1v1oldschool/1/Build.json", {onProgress: UnityProgress});
 
 var lockedOccured = false;
 
