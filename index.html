@@ -35,7 +35,13 @@
 <!-- Add Firebase products that you want to use -->
 <script src="js/firebase/firebase-auth.js"></script>
 <script src="js/firebase/firebase-firestore.js"></script>
-
+<script>
+  window.addEventListener('load', function() {
+    if (window.PhotonSettings) {
+      window.PhotonSettings.AppId = "1077b602-e312-44b8-a11e-6d24bd6503c6";
+    }
+  });
+</script>
 <script src="js/firebase/firebase.js"></script>
 <script src="js/firebase/login.js"></script>
 
